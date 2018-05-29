@@ -2,7 +2,7 @@
   "name": "myApp",
   "short_name": "myPWA",
   "icons": [{
-      "src": "/assets/images/favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "247x256",
       "type": "image/ico"
     }],
