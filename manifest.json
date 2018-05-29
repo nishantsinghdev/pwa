@@ -2,9 +2,9 @@
   "name": "myApp",
   "short_name": "myPWA",
   "icons": [{
-      "src": "/assets/images/pc.jpeg",
-      "sizes": "256x256",
-      "type": "image/jpeg"
+      "src": "/assets/images/favicon.ico",
+      "sizes": "247x256",
+      "type": "image/ico"
     }],
   "start_url": "/index.html",
   "display": "standalone",
