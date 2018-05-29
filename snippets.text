@@ -1,0 +1,10 @@
+// To check internet connectivity
+console.log(navigator.onLine ? 'online' : 'offline');
+
+window.addEventListener('offline', networkStatus);
+window.addEventListener('online', networkStatus);
+
+function networkStatus(e) {
+    console.log(e.type);
+}
+

@@ -1,0 +1,40 @@
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.notify {
+  width: 100%;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  border-radius: 100%;
+  /* box-shadow: 3px 2px #424242; */
+  display: block;
+}
+
+#home {
+  position: absolute;
+  display: block;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+}
