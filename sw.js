@@ -45,7 +45,7 @@ self.addEventListener('install', function(e) {
   
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
-  var dataUrl = 'http://localhost:8887/';
+  var dataUrl = 'https://nishantsinghdev.github.io/pwa/';
   if (e.request.url.indexOf(dataUrl) > -1) {
     /*
      * When the request URL contains dataUrl, the app is asking for fresh
