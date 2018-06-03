@@ -21,5 +21,6 @@
     	</div>
 
     </body>
-    <script type="text/javascript" src="scripts/app.js"></script>
+    <!-- <script type="text/javascript" src="scripts/app.js"></script> -->
+    <script type="">"serviceWorker" in navigator && (console.log("Will service worker register?"), navigator.serviceWorker.register("sw.js").then(function(e) { console.log('Service Worker Registered Successfully') }).catch(function(e) { console.log('Service Worker Registration Failed with error : ', e) }));</script>
 </html>

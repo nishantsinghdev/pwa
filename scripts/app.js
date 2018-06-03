@@ -20,8 +20,4 @@ if ('serviceWorker' in navigator) {
 }
 */
 
-"serviceWorker" in navigator && (console.log("Will service worker register?"), navigator.serviceWorker.register("scripts/sw.js").then(function(e) {
-  console.log('Service Worker Registered Successfully with scope : ', registration.scope)
-}).catch(function(e) {
-  console.log('Service Worker Registration Failed with error : ', e)
-}));
+"serviceWorker" in navigator && (console.log("Will service worker register?"), navigator.serviceWorker.register("scripts/sw.js").then(function(e) { console.log('Service Worker Registered Successfully with scope : ', registration.scope) }).catch(function(e) { console.log('Service Worker Registration Failed with error : ', e) }));
